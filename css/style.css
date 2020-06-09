@@ -672,7 +672,7 @@ body {
   .plans_plate a {
     text-transform: uppercase;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.541);
+    color: rgba(0, 0, 0, 0.493);
     background-color: #08b0c391;
     padding: 9px;
     transition: all 0.5s ease;
@@ -681,8 +681,13 @@ body {
     color: black;
   }
   .plans_plate .grid__plans {
-    width: 270px;
+    width: 240px;
     transition: all 0.5s ease;
+    border: 1px solid rgba(104, 104, 104, 0.082);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 3px 11px 28px -23px rgba(0, 0, 0, 0.75);
   }
   .plans_plate .grid__plans p:before {
     content: url(../img/logos/greater-than-solid.svg);
@@ -941,7 +946,7 @@ body {
     -ms-grid-column: 5;
     height: 350px;
     grid-area: one;
-    background: url(../img/800x400/02.jpg) 0 30px no-repeat;
+    background: url(../img/800x400/02.jpg) 0 20px no-repeat;
     background-size: contain;
   }
 
@@ -951,7 +956,7 @@ body {
     -ms-grid-column-span: 3;
     height: 350px;
     grid-area: two;
-    background: url(../img/800x400/01.jpg) 0 30px no-repeat;
+    background: url(../img/800x400/01.jpg) 0 20px no-repeat;
     background-size: contain;
   }
 
