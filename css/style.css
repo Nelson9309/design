@@ -178,7 +178,7 @@ body {
   }
 
   .header_list li {
-    padding: 4px;
+    padding: 10px;
   }
 
   .header_link {
@@ -276,6 +276,35 @@ body {
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width: 767px) {
+  .grid__cards {
+    margin: 100px;
+  }
+
+  .grid__cards_plate {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .grid__item {
+    transition: all 0.5s ease;
+    width: 250px;
+    padding: 20px;
+    background-color: rgba(124, 124, 124, 0.062);
+  }
+  .grid__item p {
+    width: 200px;
+    color: #9b9b9b;
+  }
+  .grid__item h2 {
+    color: #585858;
+  }
+  .grid__item img {
+    transition: all 0.5s ease;
+  }
+}
 .item_1:hover {
   transform: translateY(-45px);
 }
@@ -365,6 +394,48 @@ body {
   vertical-align: bottom;
 }
 
+@media screen and (max-width: 767px) {
+  .latest__product {
+    color: #6e6e6e;
+    margin: 100px;
+  }
+
+  .latest_head {
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+  .latest_head p {
+    color: #aaaaaa;
+  }
+
+  .latest__product_plate {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .latest__product_plate p {
+    color: #aaaaaa;
+    margin-bottom: 5px;
+  }
+  .latest__product_plate img {
+    height: auto;
+    width: 320px;
+  }
+  .latest__product_plate a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.541);
+  }
+  .latest__product_plate a:hover {
+    color: #aaaaaa;
+  }
+  .latest__product_plate a:after {
+    content: url(../img/logos/greater-than-solid.svg);
+    margin-left: 5px;
+    vertical-align: bottom;
+  }
+}
 .grid__items {
   width: 320px;
   transition: all 0.5s ease;
@@ -397,6 +468,20 @@ body {
   margin: 100px;
 }
 
+@media screen and (max-width: 767px) {
+  .partners__pic {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+  }
+  .partners__pic img {
+    height: auto;
+    width: 150px;
+  }
+}
 .plans {
   color: #6e6e6e;
   margin: 100px;
@@ -438,6 +523,48 @@ body {
   color: black;
 }
 
+@media screen and (max-width: 767px) {
+  .plans {
+    color: #6e6e6e;
+    margin: 100px;
+  }
+
+  .plans_head {
+    margin-bottom: 50px;
+    margin-left: 30px;
+  }
+  .plans_head p {
+    color: #aaaaaa;
+  }
+
+  .plans_plate {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+  }
+  .plans_plate p {
+    color: #6e6e6e;
+    margin-bottom: 10px;
+  }
+  .plans_plate img {
+    height: auto;
+    width: 320px;
+  }
+  .plans_plate h2 {
+    margin-bottom: 20px;
+  }
+  .plans_plate a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.541);
+    background-color: #08b0c391;
+    padding: 9px;
+    transition: all 0.5s ease;
+  }
+  .plans_plate a:hover {
+    color: black;
+  }
+}
 .grid__plans {
   width: 320px;
   transition: all 0.5s ease;
@@ -481,6 +608,31 @@ body {
   width: 520px;
 }
 
+@media screen and (max-width: 767px) {
+  .our__clients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #fff;
+  }
+
+  .our__text {
+    align-self: center;
+  }
+  .our__text p {
+    margin-top: 20px;
+    width: 250px;
+    line-height: 29px;
+  }
+
+  .our__picture {
+    align-self: center;
+  }
+  .our__picture img {
+    display: none;
+  }
+}
 .grid-container {
   padding: 110px;
   display: grid;
@@ -546,6 +698,11 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 767px) {
+  .grid-container {
+    display: none;
+  }
+}
 .footer {
   display: flex;
   justify-content: space-around;
@@ -587,4 +744,50 @@ body {
 
 .footer__soc li {
   margin: 15px 0 15px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/1920x1080/01.jpg);
+    background-size: cover;
+    height: 1000px;
+  }
+  .footer a {
+    color: white;
+  }
+
+  .forms {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: white;
+    text-align: center;
+  }
+  .forms .form_ {
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #2c2e31cc;
+  }
+  .forms .btn {
+    height: 30px;
+    border: none;
+    background-color: #1a1c1dcc;
+    color: white;
+    width: 350px;
+    margin-left: 25px;
+  }
+
+  .footer__list li {
+    margin: 15px 0 15px 0;
+  }
+
+  .footer__soc li {
+    margin: 15px 0 15px 0;
+  }
 }
