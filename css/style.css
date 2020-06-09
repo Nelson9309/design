@@ -175,14 +175,19 @@ body {
     width: 100%;
     display: block;
     display: grid;
+    margin-top: 20px;
   }
 
   .header_list li {
-    padding: 10px;
+    padding: 15px;
+    margin-top: 5px;
+    text-align: end;
+    margin-right: 30px;
   }
 
   .header_link {
-    font-size: 20px;
+    font-size: 1.5em;
+    border-bottom: 1px solid whitesmoke;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -239,6 +244,7 @@ body {
   }
   .main__text_head p {
     margin: 10px 0 35px 0;
+    line-height: 1.8em;
   }
 }
 .main_link a {
@@ -278,7 +284,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .grid__cards {
-    margin: 100px;
+    margin: 50px;
   }
 
   .grid__cards_plate {
@@ -397,7 +403,7 @@ body {
 @media screen and (max-width: 767px) {
   .latest__product {
     color: #6e6e6e;
-    margin: 100px;
+    margin: 50px;
   }
 
   .latest_head {
@@ -525,12 +531,12 @@ body {
 @media screen and (max-width: 767px) {
   .plans {
     color: #6e6e6e;
-    margin: 100px;
+    margin: 50px;
   }
 
   .plans_head {
     margin-bottom: 50px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .plans_head p {
     color: #aaaaaa;
@@ -545,10 +551,6 @@ body {
     color: #6e6e6e;
     margin-bottom: 10px;
   }
-  .plans_plate img {
-    height: auto;
-    width: 320px;
-  }
   .plans_plate h2 {
     margin-bottom: 20px;
   }
@@ -562,6 +564,23 @@ body {
   }
   .plans_plate a:hover {
     color: black;
+  }
+  .plans_plate .grid__plans {
+    width: 270px;
+    transition: all 0.5s ease;
+  }
+  .plans_plate .grid__plans p:before {
+    content: url(../img/logos/greater-than-solid.svg);
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .plans_plate .plans__link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+  }
+  .plans_plate .plans__link:hover {
+    transform: translatex(10px);
   }
 }
 .grid__plans {
