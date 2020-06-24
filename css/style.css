@@ -454,7 +454,7 @@ body {
 @media screen and (max-width: 767px) {
   .latest__product {
     color: #6e6e6e;
-    margin: 50px;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -1335,7 +1335,4 @@ body {
   .footer__soc li {
     margin: 8px;
   }
-}
-.header_link a:active {
-  color: red;
 }
