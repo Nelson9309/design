@@ -460,7 +460,6 @@ body {
 
   .latest_head {
     margin-bottom: 50px;
-    margin-left: 30px;
   }
   .latest_head p {
     color: #aaaaaa;
@@ -482,6 +481,7 @@ body {
   .latest__product_plate a {
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 300;
     color: rgba(0, 0, 0, 0.541);
   }
   .latest__product_plate a:hover {
