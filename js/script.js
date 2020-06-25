@@ -10,9 +10,21 @@ $(document).ready(function(){
         arrows:true,
         dots:true,
         slidesToShow:2,
-        autoplay:false,
+        autoplay:true,
         speed:1000,
         responsive:[
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow:4
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow:3
+                }
+            },
             {
                 breakpoint: 768,
                 settings: {
