@@ -428,6 +428,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 25px 0 0 0;
+  text-align: center;
 }
 .latest__product_plate .grid__items {
   margin: 0 30px 0 30px;
@@ -516,7 +517,6 @@ body {
   .latest__product_plate {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
   }
   .latest__product_plate p {
     color: #aaaaaa;
@@ -996,8 +996,9 @@ body {
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
-  .cssSlider {
-    display: none;
+  .our__clients {
+    display: flex;
+    flex-direction: column;
   }
 }
 .figure {
@@ -1031,18 +1032,12 @@ body {
     width: 250px;
     line-height: 29px;
   }
-
-  .our__picture {
-    align-self: center;
-  }
-  .our__picture img {
-    display: none;
-  }
 }
 @media screen and (min-width: 767px) and (max-width: 1024px) {
   .our__clients {
     width: 100%;
     display: flex;
+    justify-content: center;
     padding: 20px;
     background-color: #fff;
   }
